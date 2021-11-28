@@ -1,0 +1,47 @@
+.formProduct{
+
+    border: 1px;
+
+    border-style: solid;
+
+    width: auto;
+
+    background-color: azure;
+
+    padding-left: 27px;
+
+    padding-bottom: 27px;
+
+
+}
+
+.dispData{
+
+
+    border: 1px;
+
+    border-style: solid;
+
+    border-radius: 50%;
+
+    width: 167px;
+
+    height: 167px;
+
+    margin-top: 15px;
+
+    margin-left: 25px;
+
+    display: inline-block;
+
+    overflow: visible;
+
+    text-align: center;
+
+}
+
+.txt{
+
+    padding-top: 95%;
+
+}

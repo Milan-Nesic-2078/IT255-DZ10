@@ -1,0 +1,50 @@
+<div class="formProduct">
+
+    <h1 style="text-align: center;">Route Parameters (DZ-10)</h1>
+
+    <table>
+
+        <tr>
+
+            <td>ID: </td>
+
+            <td><input type="number" #id></td>
+
+        </tr>
+
+
+        <tr>
+
+            <td>Model: </td>
+
+            <td><input type="text" #model></td>
+
+        </tr>
+
+        <tr>
+
+            <td>Cena: </td>
+
+            <td><input type="number" #cena></td>
+
+        </tr>
+
+        <br><br>
+
+        <button (click) = "addProduct(id, model, cena)" >Dodaj</button>
+
+
+    </table>
+
+
+</div>
+
+<div class="dispData" *ngFor = "let product of products"  [ngStyle]="{'background-image': 'url(' + str + ')'}"   (click) = "clickProduct(product)">
+
+    <h3 class="txt">Click</h3>
+    
+
+
+</div>
+
+
